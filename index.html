@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seventin | Ecommerce WebPage</title>
+    <link rel="stylesheet" href="styles.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Joan&family=Macondo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart1.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menuicon"
+             onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Discover Fashion, Decor,<br> Beauty & More</h1>
+                <p>Powered by millions of sellers creating one of the most
+                     connected shopping experiences in the world</p>
+                     <a href="#" class="btn" >Explore Now &#8594;</a>
+
+            </div>
+            <div class="col-2">
+                <img src="images/art.png" >
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<!----- Featured categories-------->
+<div class="categories">
+    <div class="smcontainer">
+        <div class="row">
+            <div class="col-3">
+                <img src="images/feet.jpg" >
+    
+            </div>
+            <div class="col-3">
+                <img src="images/sepia.jpg" >
+                
+            </div>
+            <div class="col-3">
+                <img src="images/skate.jpg" >
+            </div>
+
+    </div>
+    
+    </div>
+</div>
+
+<!------ featured products ------>
+<div class="smcontainer">
+    <h2 class="title"> Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+
+            <a href="product-description.html"><img src="images/fashion4.jpg" ></a>
+            <a href="product-description.html"><h4> Product 1 </h4></a>
+            <div class="rating">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-half-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                
+
+            </div>
+            <p>$30.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/wedd.jpg" >
+            <h4> Product 2 </h4>
+            <div class="rating">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-half-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                
+
+            </div>
+            <p>$40.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/fashion8.jpg" >
+            <h4> Product 3 </h4>
+            <div class="rating">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                
+
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/fashion3.jpg" >
+            <h4> Product 4 </h4>
+            <div class="rating">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-half-outline"></ion-icon>
+                               
+            </div>
+            <p>$60.00</p>
+        </div>
+    </div>
+    <h2 class="title"> Latest Products</h2>
+    <div class="row">
+    <div class="col-4">
+        <img src="images/fashion1.jpg" >
+        <h4> Product 1 </h4>
+        <div class="rating">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star-half-outline"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+            
+
+        </div>
+        <p>$30.00</p>
+    </div>
+    <div class="col-4">
+        <img src="images/fashion2.jpg" >
+        <h4> Product 2 </h4>
+        <div class="rating">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star-half-outline"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+            
+
+        </div>
+        <p>$40.00</p>
+    </div>
+    <div class="col-4">
+        <img src="images/fashion5.jpg" >
+        <h4> Product 3 </h4>
+        <div class="rating">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+            
+
+        </div>
+        <p>$50.00</p>
+    </div>
+    <div class="col-4">
+        <img src="images/fashion6.jpg" >
+        <h4> Product 4 </h4>
+        <div class="rating">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star-half-outline"></ion-icon>
+                           
+        </div>
+        <p>$60.00</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-4">
+        <img src="images/glasses4.jpg" >
+        <h4> Product 1 </h4>
+        <div class="rating">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star-half-outline"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+            
+
+        </div>
+        <p>$30.00</p>
+    </div>
+    <div class="col-4">
+        <img src="images/watch2.jpg" >
+        <h4> Product 2 </h4>
+        <div class="rating">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star-half-outline"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+            
+
+        </div>
+        <p>$40.00</p>
+    </div>
+    <div class="col-4">
+        <img src="images/glasses3.jpg" >
+        <h4> Product 3 </h4>
+        <div class="rating">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+            
+
+        </div>
+        <p>$50.00</p>
+    </div>
+    <div class="col-4">
+        <img src="images/glasses2.jpg" >
+        <h4> Product 4 </h4>
+        <div class="rating">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star-half-outline"></ion-icon>
+                           
+        </div>
+        <p>$60.00</p>
+    </div>
+</div> 
+
+</div>
+<!------- Offers ---------->
+<div class="offers">
+    <div class="smcontainer">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/watch1.jpg" class="offer-img">
+
+            </div>
+            <div class="col-2">
+                <p>Save 20% on apparel & accessories clearance on select items</p>
+                <h1>Ladies Watch</h1>
+                <small>Janice Multifunction Two-Tone Stainless Steel Watch</small> <br>
+                <a href="" class="btn">Buy Now &#8594; </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------- Testimonials ---------->
+<div class="testimonial">
+    <div class="smcontainer">
+        <div class="row">
+            <div class="col-3"> 
+                <ion-icon name="chatbubble-outline"></ion-icon>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, 
+                    inventore, rem illo at perspiciatis ab nulla laborum non fugit molestias 
+                    aspernatur laudantium dolor explicabo maiores nisi! Ipsa ad dignissimos aperiam.</p>
+                    <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                                       
+                    </div>
+                    <img src="images/model6.jpg" >
+                    <h3>Sarah James</h3>
+            </div>
+            <div class="col-3"> 
+                <ion-icon name="chatbubble-outline"></ion-icon>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, 
+                    inventore, rem illo at perspiciatis ab nulla laborum non fugit molestias 
+                    aspernatur laudantium dolor explicabo maiores nisi! Ipsa ad dignissimos aperiam.</p>
+                    <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                                       
+                    </div>
+                    <img src="images/model8.jpg" >
+                    <h3>Marques Hyber</h3>
+            </div>
+            <div class="col-3"> 
+                <ion-icon name="chatbubble-outline"></ion-icon>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, 
+                    inventore, rem illo at perspiciatis ab nulla laborum non fugit molestias 
+                    aspernatur laudantium dolor explicabo maiores nisi! Ipsa ad dignissimos aperiam.</p>
+                    <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                                       
+                    </div>
+                    <img src="images/model9.jpg" >
+                    <h3>Mary Lee</h3>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+<!------- Brands ---------->
+<div class="brands">
+    <div class="smcontainer">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/levis.png">
+            </div>
+            <div class="col-5">
+                <img src="images/paypal.png">
+            </div>
+            <div class="col-5">
+                <img src="images/airjordan.png">
+            </div>  
+            <div class="col-5">
+                <img src="images/insta.png">
+            </div>
+           
+            <div class="col-5">
+                <img src="images/visa.png">
+            </div>
+          
+        </div>
+    </div>
+</div>
+
+<!-------- footer------>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our App</h3>
+                 <p>Download our App for IOS and Android mobile</p> 
+                 <div class="applogo">
+                     <img src="images/playstore1.png" >
+                     <img src="images/appstore1.png" >
+                 </div>             
+            </div>
+         
+            <div class="footer-col-2">
+                 <img src="images/logo.png" alt="">
+                 <p>Making fashion Accessible to all</p>              
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                 <ul>
+                     <li>Coupons</li>
+                     <li>Blog Post</li>
+                     <li>Return policy</li>
+                     <li>Join Affliate</li>
+                 </ul>            
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                 <ul>
+                     <li>Facebook</li>
+                     <li>Instagram</li>
+                     <li>Twitter</li>
+                     <li>Youtube</li>
+                 </ul>            
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2022 regC</p>
+    </div>
+</div>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
